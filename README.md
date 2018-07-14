@@ -7,4 +7,4 @@
 
 #### What is it that you are going to build (e.g. content, features, and user interactions afforded?)
 
-#### What kind of data will you need from your users (i.e. taken directly or indirectly - to collect, save, analyze, manipulate, share, etc.) and how will this relate to the user's learning?
+#### What kind of data will you need from your users (i.e. taken directly or indirectly - to collect, save, analyze, manipulate, share, etc.) and how will this relate to the user's learning?啦啦啦啦
