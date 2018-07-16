@@ -1,7 +1,7 @@
 # MSTU5013_Project
 
 - Group Member: Xiaoxiao Wang; Yuhan Nie
-- Project Name: 
+- Project Name: demo museum curriculum
 
 #### What is the learning problem that your web-app / experience will solve?
 Museum visiting is often recognized as an important extracurriculum activity for school children. As abundant as the museum resources in New York City, there is no platform out there that has all the museum curriculum prepared and organized for the school teacher to choose. Therefore, we wish to create a demo website that included school programs that created by museums. School teacher could choose the museum program based on their educational objectives. 
