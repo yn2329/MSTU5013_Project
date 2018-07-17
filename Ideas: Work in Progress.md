@@ -11,3 +11,13 @@
     1. 鼓励学生进行创作（因为是艺术学院）
     2. decentralized的模式使得学校网站承载着传播官方信息的作用和提供一个```让学生发声```的平台，去除了学院的权威empower了free speech。
 
+Museums | Link
+------------ | -------------
+|       |1. https://www.metmuseum.org/art/online-features/metkids/
+|the Met|2. https://www.metmuseum.org/learn/kids-and-families/family-map 
+|       |3. https://www.metmuseum.org/learn/kids-and-families/family-guides
+|Guggenheim| https://www.guggenheim.org/wp-content/uploads/2018/05/guggenheim-find-and-flip-thannhauser.pdf
+|MoMA| https://www.moma.org/interactives/destination/#
+|the Palace Museum| https://www.moma.org/interactives/destination/#
+
+
