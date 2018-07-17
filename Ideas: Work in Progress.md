@@ -21,3 +21,6 @@ Museums | Link
 |the Palace Museum| https://www.moma.org/interactives/destination/#
 
 
+- Design Ideas:
+   - https://www.franshalsmuseum.nl/en/ ***franshalsmuseum***
+   
