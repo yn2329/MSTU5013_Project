@@ -26,7 +26,7 @@ Museums | Link
    
 - Source:
    - https://www.iconfinder.com/icons/353430/checkbox_edit_pen_pencil_icon ***icon***
-   - https://www.w3schools.com/howto/howto_js_sidenav.asp ***left size*** 
+   - https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp ***fixed sidebar*** 
    - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_menu_bottom ***fixed navbar*** 
    - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown_hover ***dropdown menu***
    
