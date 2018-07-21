@@ -3,6 +3,7 @@ body, html {
   font-weight: normal;
   font-style: normal;
   margin: 0;
+  background-color: pink;
 }
 
 /* topnav style */
@@ -17,17 +18,32 @@ body, html {
   display: block;
 }
 
-#about, #playground {
-  color: yellow;
+#about {
+  color: #ffff00;
   float: center;
   display: inline-block;
   cursor: pointer;
   border-bottom: 1px solid #ccc;
   text-align: center;
   margin-top: 30px;
-  margin-left: 310px;
+  margin-left: 395px;
   padding: 20px;
   letter-spacing: 0.1em;
+  position: absolute;
+}
+
+#playground {
+  color: #ffff00;
+  float: center;
+  display: inline-block;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 890px;
+  padding: 20px;
+  letter-spacing: 0.1em;
+  position: absolute;
 }
 
 #logo {
@@ -38,4 +54,117 @@ body, html {
   right: 500px;
 }
 
+#about:hover {
+  letter-spacing: 0.5em;
+}
+
+#playground:hover {
+  letter-spacing: 0.5em;
+}
+
 /* sidenav style */
+
+.sidenav {
+  height: 100%;
+  width: 120px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #ffff00;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+#museum_icon {
+  padding: 10px 35px 0px;
+  margin: 120px 0px 0 0;
+}
+
+#theme_icon {
+  padding: 0px 32px 0px;
+  margin: 10px 0px 0 0;
+}
+
+#educator_icon {
+  padding: 0px 30px 0;
+  margin: 5px 0px 0 0;
+}
+
+#museum_icon:hover {
+  cursor: pointer;
+  width: 60px;
+  font-size: 20px;
+}
+
+#theme_icon:hover {
+  width: 70px;
+}
+
+#educator_icon:hover {
+  width: 65px;
+  height: 85px;
+}
+
+#inputsearch {
+  border: 1px solid;
+  width: 80px;
+  padding: 5px 0px 5px 15px;
+  margin: 10px 0px 10px 20px;
+}
+
+#searchbutton {
+  background-color: black;
+  color: white;
+  width: 80px;
+  height: 30px;
+  margin: 0px 0px 20px 20px;
+  padding: 0px 0px 0px 0px;
+  border: 0;
+}
+
+#searchbutton:hover {
+  background-color: white;
+  color: black;
+}
+
+/*login_form*/
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+  margin: 10px 10px 0px 28px;
+}
+
+.login_form {
+  display: block;
+  border: 2px solid #ff0;
+  background-color: pink;
+  float: right;
+  padding: 10px 30px 20px 10px;
+  margin: 20px 0px 0px 1000px;
+  position: fixed;
+}
+
+#loginemail, #loginpassword {
+  border: 1px solid black;
+  padding: 10px 10px 10px 10px;
+  margin: 8px 0px 0px 30px;
+}
+
+#login, #signup {
+  padding: 10px 10px 8px 8px;
+  margin: 10px 0px 0px 32px;
+  font-size: 14px;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+#signup {
+  margin: 0px 0px 0px 5px;
+}
+
+#login:hover, #signup:hover {
+  border: 1px solid #ff0;
+}
