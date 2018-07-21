@@ -1,0 +1,41 @@
+body, html {
+  font-family: futura;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0;
+}
+
+/* topnav style */
+
+.topnav {
+  overflow: : hidden;
+  background-color: black;
+  width: auto;
+  float: inherit;
+  width: auto;
+  height: 150px;
+  display: block;
+}
+
+#about, #playground {
+  color: yellow;
+  float: center;
+  display: inline-block;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 310px;
+  padding: 20px;
+  letter-spacing: 0.1em;
+}
+
+#logo {
+  width: 150px;
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  right: 500px;
+}
+
+/* sidenav style */
