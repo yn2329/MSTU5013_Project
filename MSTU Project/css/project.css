@@ -168,3 +168,15 @@ h1 {
 #login:hover, #signup:hover {
   border: 1px solid #ff0;
 }
+
+#loopedContent {
+  margin: 10px 0px 500px 200px;
+  padding: 10px 10px 10px 10px;
+}
+
+#test_button {
+  float: right;
+  background-color: pink;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 700px 50px 10px;
+}
