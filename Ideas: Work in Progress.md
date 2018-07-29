@@ -31,4 +31,5 @@ Museums | Link
    - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_menu_bottom ***fixed navbar*** 
    - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown_hover ***dropdown menu***
    - 随便整了个logo https://www.canva.com/design/DAC-BwkW4io/share?role=EDITOR&token=hCfpyhyu0QegcP4scKdDRg&utm_content=DAC-BwkW4io&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton ***logo***
+   -  https://freshman.tech/wikipedia-javascript/ ***how to build a wiki***
    
