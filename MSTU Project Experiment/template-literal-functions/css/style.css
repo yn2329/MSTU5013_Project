@@ -1,0 +1,13 @@
+html, body {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+#generatedContent {
+  margin-top: 1em;
+}
+.cmd {
+  margin-top: 1em;
+}
+.card {
+  margin-bottom: 1em;
+}

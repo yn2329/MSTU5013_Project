@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <html lang="en">
+
+  <head>
+    <link href="css/project.css"
+          type="text/css"
+          rel="stylesheet">
+    <!---
+    <link rel='stylesheet prefetch'
+          href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
+--->
+  </head>
+
+
+
+  <!---topnav--->
+
+  <div style="padding-left: 16px;"
+       <div
+       class="topnav">
+    <span id="about"
+          href="#about"
+          onclick="www.baidu.com">About</span>
+    <img id="logo"
+         src="https://farm2.staticflickr.com/1764/42634648485_c1da594426.jpg"
+         alt="logo">
+    <span id="playground"
+          href="#playground">Playground</span>
+  </div>
+
+  <!---sidenav--->
+  <div class="sidenav">
+    <img id="museum_icon"
+         src="https://farm2.staticflickr.com/1824/43503407302_0d3112e3da_o.png"
+         width="55"
+         alt="museum">
+    <img id="theme_icon"
+         src="https://farm1.staticflickr.com/842/28663206727_f7ac3f1b1b_o.png"
+         width="60"
+         alt="themes">
+    <img id="educator_icon"
+         src="https://farm1.staticflickr.com/835/42833054534_1a3b55b9f9_o.png"
+         width="55"
+         height="75"
+         alt="educator">
+
+    <input id="inputsearch"
+           class="form-control mr-sm-2"
+           type="search"
+           placeholder="Search"
+           aria-label="Search">
+    <button id="searchbutton"
+            class="btn btn-outline-success my-2 my-sm-0 btn-sm"
+            type="submit">Search</button>
+  </div>
+
+  <!---login form--->
+  <form action="/action_page.php">
+    <div class="login_form">
+      <h1> Welcome Back </h1>
+      <br>
+      <input id="loginemail"
+             type="text"
+             placeholder="Enter Email">
+      <br>
+      <br>
+      <input id="loginpassword"
+             type="text"
+             placeholder="Enter Password">
+      <br>
+      <button id="login"
+              onclick="myfunction1()"
+              class="signin">Log In</button>
+
+
+      <button id="signup"
+              type="submit"
+              class="signup"
+              onclick="document.getElementById('register').style.display='block'">Register</button>
+
+    </div>
+  </form>
+
+  <!---artwork--->
+  <!---not riot
+  <button id="test_button"
+          onclick="addArtwork();">Loop</button>
+  <div id="loopedContent"></div>
+--->
+
+
+  <button id="test"
+          onclick=onclick()>Search
+  </button>
+
+  <artwork></artwork>
+  <artwork> </artwork>
+  <artwork> </artwork>
+
+  <!--
+  <table id="table"
+         onmouseover="mouseOver()"
+         onmouseout="mouseOut()">
+    <th>
+      <img onmouseover={
+           bigImg
+           }
+           onmouseout={
+           normalImg
+           }
+           src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/10127/35311/main-image"
+           alt="Ernesta (Child with Nurse)
+      "
+           height=296.8
+           width=328.3></img>
+    </th>
+  </table>
+-->
+
+  <h1 id="demo"
+      onmouseover="mouseOver()"
+      onmouseout="mouseOut()">Mouse over me</h1>
+
+  <script src="./artwork.tag"
+          type="riot/tag"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/riot/3.11.1/riot+compiler.min.js">
+  </script>
+  <script>
+    riot.mount('*');
+  </script>
+
+  <script src="index.js">
+  </script>
+
+  </html>
