@@ -145,6 +145,7 @@ h1 {
   padding: 10px 30px 20px 10px;
   margin: 20px 0px 0px 1000px;
   position: fixed;
+  z-index: 1;
 }
 
 #loginemail, #loginpassword {
@@ -172,23 +173,4 @@ h1 {
 #loopedContent {
   margin: 10px 0px 500px 200px;
   padding: 10px 10px 10px 10px;
-}
-
-#test_button {
-  float: right;
-  background-color: pink;
-  padding: 10px 10px 10px 10px;
-  margin: 10px 700px 50px 10px;
-  color: black;
-}
-
-#test {
-  margin: 10px 700px 50px 10px;
-  float: right;
-  background-color: blue;
-  padding: 10px 10px 10px 10px;
-}
-
-#demo {
-  display: block;
 }

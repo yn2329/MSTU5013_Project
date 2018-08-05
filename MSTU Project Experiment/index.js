@@ -30,15 +30,5 @@ function generateArtworkHTML(list) {
   }
   return html;
 }
+
 *************/
-document.getElementById("test").onclick = function() {
-  location.href = "template-literal-functions/index.html";
-};
-
-function mouseOver() {
-  document.getElementById("demo").style.color = "red";
-}
-
-function mouseOut() {
-  document.getElementById("demo").style.color = "yellow";
-}
