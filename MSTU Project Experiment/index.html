@@ -50,7 +50,7 @@
     </div>
 
     <!---login form--->
-    <form action="/action_page.php">
+    <form>
       <div class="login_form">
         <h1> Welcome Back </h1>
         <br>
@@ -64,24 +64,80 @@
                placeholder="Enter Password">
         <br>
         <button id="login"
-                onclick="myfunction1()"
                 class="signin">Log In</button>
         <button id="signup"
-                type="submit"
-                class="signup"
-                onclick="document.getElementById('register').style.display='block'">Register</button>
+                type="submit">Register</button>
       </div>
     </form>
-    <!--
-    <button id="test"
-            onclick=onclick()>Search
-  </button>
--->
+
+    <!--sign up form-->
+    <div id="register"
+         class="modal">
+      <span onclick="document.getElementById('register').style.display='none'"
+            class="close"
+            title="Close Modal">
+      </span>
+      <form class="modal-content"
+            action="/action_page.php">
+        <div class="container">
+          <div id="signupform">
+            <h1>Sign Up</h1>
+            <p>Please fill in this form to create an account.</p>
+            <hr>
+            <label for="email">
+        <b>Email</b>
+      </label>
+            <input id="regemail"
+                   type="text"
+                   placeholder="Enter Email"
+                   name="email">
+
+            <label for="psw">
+        <b>Password</b>
+      </label>
+            <input id="regpsw"
+                   type="password"
+                   placeholder="Enter Password"
+                   name="psw">
+            <label for="psw-repeat">
+        <b>Repeat Password</b>
+      </label>
+            <input id="reregpsw"
+                   type="password"
+                   placeholder="Repeat Password"
+                   name="psw-repeat"
+                   required="required">
+
+            <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px">
+        Remember me
+      </label>
+
+            <p>By creating an account you agree to our
+              <a href="#"
+                 style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+            <div id="clearfix">
+              <button id="cancel"
+                      type="button"
+                      class="cancelbtn"
+                      onclick="document.getElementById('register').style.display='none'">Cancel</button>
+              <button id="signmeup"
+                      type="submit"
+                      class="signup"
+                      onclick="https://codepen.io/yn2329/live/pKZvGb">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
 
     <artwork></artwork>
-
+    <register></register>
 
     <script src="./tag/artwork.tag"
+            type="riot/tag"></script>
+    <script src="./tag/lesson.tag"
             type="riot/tag"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/riot/3.11.1/riot+compiler.min.js">
     </script>

@@ -1,3 +1,4 @@
+<!--The parent tag-->
 <artwork>
   <table class="table">
     <tr>
@@ -38,8 +39,11 @@
     </tr>
   </table>
 
-  <script>
+  <!--connect the lesson tag to the main tag-->
+  <lesson></lesson>
 
+
+  <script>
     this.smallImg = function (event) {
       this.refs.three.style.width = "137.8px";
       this.refs.three.style.height = "172.7px";
@@ -50,12 +54,13 @@
       this.refs.three.style.height = "";
     };
 
-    this.gotolink = function (event) {
-    location.href = "https://codepen.io/yn2329/live/pKZvGb";
-      //alert('gotolink');
-      //this.refs.gotolesson1.location = "https://codepen.io/yn2329/live/pKZvGb";
-      //this.refs.gotolesson1 = this.refs.gotolesson1.location;
+this.gotolink = function (event) {
+      location.href = "https://codepen.io/yn2329/live/pKZvGb";
+      //alert('gotolink'); this.refs.gotolesson1.location = "https://codepen.io/yn2329/live/pKZvGb"; this.refs.gotolesson1 = this.refs.gotolesson1.location;
     };
+
+    var that = this;
+    this.gotoLesson = false;
   </script>
 
   <style>
@@ -67,6 +72,7 @@
     .table tr {
       text-align: center;
     }
+
     .table td {
       text-align: center;
       background-color: transparent;
@@ -104,6 +110,7 @@
       color: yellow;
       margin: 15px;
     }
+
     .artwork2:hover .gotolesson2 {
       visibility: visible;
     }
@@ -124,6 +131,7 @@
       color: yellow;
       margin: 0;
     }
+
     .artwork3:hover .gotolesson3 {
       visibility: visible;
     }

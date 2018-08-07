@@ -32,3 +32,27 @@ function generateArtworkHTML(list) {
 }
 
 *************/
+//get the login button working
+document.getElementById("login").onclick = function() {
+  let inputEmailEl = document.querySelector('#loginemail');
+  let email = inputEmailEl.value;
+  let inputPassEl = document.querySelector('#loginpassword');
+  let password = inputPassEl.value;
+  if (password == "" || email == "") {
+    alert('You must enter a password and email.');
+  } else {
+    return loncation.href =
+      "https://codepen.io/yn2329/live/pKZvGb";
+  }
+}
+
+
+//document.getElementById("signup").onclick = function(event) {
+//alert('123');
+//};
+var modal = document.getElementById("signup");
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+};
