@@ -33,6 +33,7 @@ function generateArtworkHTML(list) {
 
 *************/
 //get the login button working
+/*
 document.getElementById("login").onclick = function() {
   let inputEmailEl = document.querySelector('#loginemail');
   let email = inputEmailEl.value;
@@ -45,14 +46,17 @@ document.getElementById("login").onclick = function() {
       "https://codepen.io/yn2329/live/pKZvGb";
   }
 }
+*/
 
 
 //document.getElementById("signup").onclick = function(event) {
 //alert('123');
 //};
+/*
 var modal = document.getElementById("signup");
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
 };
+*/

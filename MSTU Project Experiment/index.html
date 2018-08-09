@@ -49,28 +49,7 @@
               type="submit">Search</button>
     </div>
 
-    <!---login form--->
-    <form>
-      <div class="login_form">
-        <h1> Welcome Back </h1>
-        <br>
-        <input id="loginemail"
-               type="text"
-               placeholder="Enter Email">
-        <br>
-        <br>
-        <input id="loginpassword"
-               type="text"
-               placeholder="Enter Password">
-        <br>
-        <button id="login"
-                class="signin">Log In</button>
-        <button id="signup"
-                type="submit">Register</button>
-      </div>
-    </form>
-
-    <!--sign up form-->
+    <!--sign up form
     <div id="register"
          class="modal">
       <span onclick="document.getElementById('register').style.display='none'"
@@ -84,9 +63,7 @@
             <h1>Sign Up</h1>
             <p>Please fill in this form to create an account.</p>
             <hr>
-            <label for="email">
-        <b>Email</b>
-      </label>
+            <label for="email"> <b>Email</b></label>
             <input id="regemail"
                    type="text"
                    placeholder="Enter Email"
@@ -107,7 +84,6 @@
                    placeholder="Repeat Password"
                    name="psw-repeat"
                    required="required">
-
             <label>
         <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px">
         Remember me
@@ -131,13 +107,14 @@
         </div>
       </form>
     </div>
-
+-->
     <artwork></artwork>
-    <register></register>
 
     <script src="./tag/artwork.tag"
             type="riot/tag"></script>
     <script src="./tag/lesson.tag"
+            type="riot/tag"></script>
+    <script src="./tag/login.tag"
             type="riot/tag"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/riot/3.11.1/riot+compiler.min.js">
     </script>

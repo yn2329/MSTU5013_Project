@@ -130,30 +130,6 @@ body, html {
 
 /*login_form*/
 
-h1 {
-  font-size: 20px;
-  text-align: center;
-  padding: 0px 0px 0px 0px;
-  margin: 10px 10px 0px 28px;
-}
-
-.login_form {
-  display: block;
-  border: 2px solid #ff0;
-  background-color: pink;
-  float: right;
-  padding: 10px 30px 20px 10px;
-  margin: 20px 0px 0px 1000px;
-  position: fixed;
-  z-index: 1;
-}
-
-#loginemail, #loginpassword {
-  border: 1px solid black;
-  padding: 10px 10px 10px 10px;
-  margin: 8px 0px 0px 30px;
-}
-
 #login, #signup, #cancel, #signmeup {
   padding: 10px 10px 8px 8px;
   margin: 10px 0px 0px 32px;

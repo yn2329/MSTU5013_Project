@@ -1,5 +1,6 @@
 <!--The parent tag-->
 <artwork>
+  <login></login>
   <table class="table">
     <tr>
       <td class="artwork1">
@@ -41,6 +42,9 @@
 
   <!--connect the lesson tag to the main tag-->
   <lesson></lesson>
+  <!--connect the login tag to the main tag-->
+
+
 
 
   <script>
