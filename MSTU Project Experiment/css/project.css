@@ -40,7 +40,7 @@ body, html {
   border-bottom: 1px solid #ccc;
   text-align: center;
   margin-top: 30px;
-  margin-left: 800px;
+  margin-left: 100px;
   padding: 20px;
   letter-spacing: 0.1em;
   position: absolute;
@@ -50,8 +50,8 @@ body, html {
   width: 150px;
   display: inline-block;
   text-align: center;
-  position: absolute;
-  right: 580px;
+  position: relative;
+  margin-left: 600px;
 }
 
 #about:hover {
@@ -130,7 +130,7 @@ body, html {
 
 /*login_form*/
 
-#login, #signup, #cancel, #signmeup {
+.login, #signup, #cancel, #signmeup {
   padding: 10px 10px 8px 8px;
   margin: 10px 0px 0px 32px;
   font-size: 14px;
@@ -138,24 +138,6 @@ body, html {
   background-color: transparent;
 }
 
-#signup, #cancel, #signmeup {
-  margin: 0px 0px 0px 5px;
-}
-
-#login:hover, #signup:hover {
+.login:hover, #signup:hover {
   border: 1px solid #ff0;
-}
-
-#cancel:hover, #signmeup:hover {
-  border: 1px solid black;
-}
-
-#register {
-  background-color: #ff0;
-  color: black;
-  margin: 10px 10px 10px 200px;
-  width: 800px;
-  height: 300px;
-  padding: 10px 10px 10px 10px;
-  float: center;
 }

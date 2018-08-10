@@ -1,6 +1,8 @@
 <!--The parent tag-->
 <artwork>
+  <!--connect the login tag to the main tag-->
   <login></login>
+  <!--the artwork table-->
   <table class="table">
     <tr>
       <td class="artwork1">
@@ -18,7 +20,7 @@
     </tr>
     <tr>
       <td class="artwork">
-        <img ref="three" onmouseover={ smallImg } onmouseout={ normalImg } src="https://images.metmuseum.org/CRDImages/ma/web-large/DP148552.jpg" alt="Oval Form with Strings and Color" height="348" width="260.7"></img>
+        <img ref="three" } src="https://images.metmuseum.org/CRDImages/ma/web-large/DP148552.jpg" alt="Oval Form with Strings and Color" height="348" width="260.7"></img>
       </td>
       <td class="artwork">
         <img src="https://www.metmuseum.org/toah/images/hb/hb_10.36.jpg" alt="The Funeral" height="319" width="391"></img>
@@ -42,29 +44,16 @@
 
   <!--connect the lesson tag to the main tag-->
   <lesson></lesson>
-  <!--connect the login tag to the main tag-->
-
-
-
+  <!--connect the register tag to the main tag-->
 
   <script>
-    this.smallImg = function (event) {
-      this.refs.three.style.width = "137.8px";
-      this.refs.three.style.height = "172.7px";
-    };
 
-    this.normalImg = function (event) {
-      this.refs.three.style.width = "";
-      this.refs.three.style.height = "";
-    };
-
-this.gotolink = function (event) {
+    this.gotolink = function (event) {
       location.href = "https://codepen.io/yn2329/live/pKZvGb";
-      //alert('gotolink'); this.refs.gotolesson1.location = "https://codepen.io/yn2329/live/pKZvGb"; this.refs.gotolesson1 = this.refs.gotolesson1.location;
+      //alert('gotolink');
+      /*this.refs.gotolesson1.location = "https://codepen.io/yn2329/live/pKZvGb"; this.refs.gotolesson1 = this.refs.gotolesson1.location;*/
     };
 
-    var that = this;
-    this.gotoLesson = false;
   </script>
 
   <style>
