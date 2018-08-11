@@ -6,6 +6,7 @@
 
 
   <!-- The social media icon bar -->
+  <div class="aboutpage">
   <div class="icon-bar">
     <a href="https://www.facebook.com" class="facebook"><i class="fa fa-facebook"></i></a>
     <a href="https://www.twitter.com" class="twitter"><i class="fa fa-twitter"></i></a>
@@ -42,11 +43,13 @@ Supports professionalism among peers and others committed to excellence in museu
 MER hosts an annual program each year in Washington, DC, and a members reception at the AAM annual conference. In addition, MER partners with regional groups to present programs that offer networking opportunities and discussions around issues of the JME.</h4>
 
     </div>
+
 <br>
 
 <hr>
 
 <br>
+</div>
 
 
     <!-- Bootstrap core JavaScript -->
@@ -55,6 +58,13 @@ MER hosts an annual program each year in Washington, DC, and a members reception
 
 
     <style>
+    .aboutpage {
+    width: 80%;
+    margin-left: 180px;
+    border: 1px solid yellow;
+    background: linear-gradient(90deg, rgba(255,255,255,0.38279061624649857) 0%, rgba(255,255,255,0.5872724089635855) 50%, rgba(255,255,255,0.3295693277310925) 100%);
+    }
+
     hgroup {
     text-align: Left;
     padding-left: 16px;
@@ -77,8 +87,9 @@ p,h4:first-letter {
 
     /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
-  position: fixed;
+  position: absolute;
   top: 50%;
+  margin-top:1500px;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
