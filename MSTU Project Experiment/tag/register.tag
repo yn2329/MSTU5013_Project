@@ -32,9 +32,10 @@
   </div>
 
   <script>
-  this.closeRegister = function (event) {
-   this.closeRegister = !this.registerFormShown;
+  this.closeRegister = function () {
+   this.closeRegister = false;
 }
+
 
   this.warning = function (event) {
     //if (regemail == "" || regpsw == "" || reregpsw == "" ) {

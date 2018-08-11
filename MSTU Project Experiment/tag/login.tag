@@ -19,16 +19,15 @@
 
   <script>
     this.alertshow = function (event) {
-      //if (loginpassword == "" || loginemail == "") {
-        alert('You must enter a password and email.');
-      // else {
-          //return loncation.href = "https://codepen.io/yn2329/live/pKZvGb";
-      //  }
-      //}
+      //this.refs.loginemail = inputEmailEl; this.email = inputEmailEl.value; this.refs.loginpassword = inputPassEl; this.password = inputPassEl.value; if (loginpassword == "" || loginemail == "") {
+      alert('You must enter a password and email.');
+      //else { return loncation.href = "https://codepen.io/yn2329/live/pKZvGb"; } }
     }
+
     this.registerFormShown = false;
+
     this.toggleRegister = function () {
-      this.registerFormShown = true;
+    this.registerFormShown = true;
     }
 
     /*
