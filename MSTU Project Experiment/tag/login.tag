@@ -1,4 +1,5 @@
 <login>
+  <register show={ registerFormShown }></register>
   <form>
     <div class="login_form">
       <h1>
@@ -14,8 +15,6 @@
       <button id="signup" onclick={ toggleRegister }>Register</button>
     </div>
   </form>
-
-  <register show={ registerFormShown }></register>
 
   <script>
     this.alertshow = function (event) {
@@ -58,7 +57,7 @@
       background-color: pink;
       float: right;
       padding: 10px 30px 10px 10px;
-      margin: 20px 0 0 1000px;
+      margin: 200px 0 0 1000px;
       position: fixed;
       z-index: 1;
     }

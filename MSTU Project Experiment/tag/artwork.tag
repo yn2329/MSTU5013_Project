@@ -1,7 +1,22 @@
 <!--The parent tag-->
 <artwork>
-  <!--connect the login tag to the main tag-->
   <login></login>
+  <!--connect the login tag to the main tag-->
+
+  <!--the topnav-->
+  <div style="padding-left: 16px;">
+    <div class="topnav">
+      <span id="about"
+            href="#about"
+            onclick={ aboutAppear }>About</span>
+      <img id="logo"
+           src="https://farm2.staticflickr.com/1764/42634648485_c1da594426.jpg"
+           alt="logo">
+      <span id="playground"
+            href="#playground">Playground</span>
+    </div>
+  </div>
+
   <!--the artwork table-->
   <table class="table">
     <tr>
@@ -44,7 +59,9 @@
 
   <!--connect the lesson tag to the main tag-->
   <lesson></lesson>
-  <!--connect the register tag to the main tag-->
+  <!--connect the about tag to the main tag-->
+<about show={ showAbout }></about>
+
 
   <script>
 
@@ -53,6 +70,11 @@
       //alert('gotolink');
       /*this.refs.gotolesson1.location = "https://codepen.io/yn2329/live/pKZvGb"; this.refs.gotolesson1 = this.refs.gotolesson1.location;*/
     };
+
+    this.showAbout = false;
+    this.aboutAppear = function() {
+      this.showAbout = true;
+    }
 
   </script>
 
