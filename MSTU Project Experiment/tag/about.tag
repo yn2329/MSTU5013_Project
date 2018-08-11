@@ -42,6 +42,8 @@ Supports professionalism among peers and others committed to excellence in museu
 
 MER hosts an annual program each year in Washington, DC, and a members reception at the AAM annual conference. In addition, MER partners with regional groups to present programs that offer networking opportunities and discussions around issues of the JME.</h4>
 
+<button class="back" type="button" onclick = { closeAbout }>Back</button>
+
     </div>
 
 <br>
@@ -51,6 +53,12 @@ MER hosts an annual program each year in Washington, DC, and a members reception
 <br>
 </div>
 
+<script>
+this.closeAbout = function () {
+  this.showAbout = !this.showAbout;
+//alert('close');
+}
+</script>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -133,6 +141,20 @@ p,h4:first-letter {
 .youtube {
   background: pink;
   color: white;
+}
+
+.back {
+width: 80px;
+background: transparent;
+border: 1px solid yellow;
+margin: 10px 10px 10px 450px;
+padding: 10px 20px 10px 20px;
+font-size: 15px;
+text-align: center;
+}
+
+.back:hover {
+background-color: pink;
 }
 </style>
 
