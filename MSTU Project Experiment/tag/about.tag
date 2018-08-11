@@ -89,7 +89,7 @@ p,h4:first-letter {
 .icon-bar {
   position: absolute;
   top: 50%;
-  margin-top:1500px;
+  margin-top:1490px;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -99,7 +99,7 @@ p,h4:first-letter {
 .icon-bar a {
   display: block;
   text-align: center;
-  padding: 16px;
+  padding: 12px;
   transition: all 0.3s ease;
   color: white;
   font-size: 20px;
@@ -107,31 +107,31 @@ p,h4:first-letter {
 
 /* Style the social media icons with color, if you want */
 .icon-bar a:hover {
-  background-color: #000;
+  background-color: black;
 }
 
 .facebook {
-  background: #3B5998;
+  background: pink;
   color: white;
 }
 
 .twitter {
-  background: #55ACEE;
+  background: pink;
   color: white;
 }
 
 .google {
-  background: #dd4b39;
+  background: pink;
   color: white;
 }
 
 .linkedin {
-  background: #007bb5;
+  background: pink;
   color: white;
 }
 
 .youtube {
-  background: #bb0000;
+  background: pink;
   color: white;
 }
 </style>

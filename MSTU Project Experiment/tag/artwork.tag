@@ -71,7 +71,7 @@
       /*this.refs.gotolesson1.location = "https://codepen.io/yn2329/live/pKZvGb"; this.refs.gotolesson1 = this.refs.gotolesson1.location;*/
     };
 
-    this.showAbout = false;
+    this.showAbout = true;
     this.aboutAppear = function() {
       this.showAbout = true;
     }
