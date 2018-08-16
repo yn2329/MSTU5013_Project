@@ -54,8 +54,10 @@ MER hosts an annual program each year in Washington, DC, and a members reception
 </div>
 
 <script>
+
+//Since using this.showAbout = false is not working and I could not debug it, so I use this method to "fake cancel" the about page.
 this.closeAbout = function () {
-  this.showAbout = !this.showAbout;
+  location.href="index.html";
 //alert('close');
 }
 </script>

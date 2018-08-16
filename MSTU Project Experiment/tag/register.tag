@@ -32,6 +32,8 @@
   </div>
 
   <script>
+
+
   this.closeRegister = function () {
    this.closeRegister = false;
 }

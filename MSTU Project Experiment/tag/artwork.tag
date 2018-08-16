@@ -17,6 +17,32 @@
     </div>
   </div>
 
+  <!--sidenav-->
+  <div class="sidenav">
+    <img id="museum_icon" onclick= { gotoMuseumList }
+         src="https://farm2.staticflickr.com/1824/43503407302_0d3112e3da_o.png"
+         width="55"
+         alt="museum">
+    <img id="theme_icon"
+         src="https://farm1.staticflickr.com/842/28663206727_f7ac3f1b1b_o.png"
+         width="60"
+         alt="themes">
+    <img id="educator_icon" onclick= { gotoEducator }
+         src="https://farm1.staticflickr.com/835/42833054534_1a3b55b9f9_o.png"
+         width="55"
+         height="75"
+         alt="educator">
+
+    <input id="inputsearch"
+           class="form-control mr-sm-2"
+           type="search"
+           placeholder="Search"
+           aria-label="Search">
+    <button id="searchbutton"
+            class="btn btn-outline-success my-2 my-sm-0 btn-sm"
+            type="submit">Search</button>
+  </div>
+
   <!--the artwork table-->
   <table class="table">
     <tr>
@@ -76,7 +102,10 @@
       this.showAbout = true;
     }
 
-    
+ this.gototag = function(event) {
+   location.href="Riot-for-final/riot/index.html"
+ }
+
 
   </script>
 
