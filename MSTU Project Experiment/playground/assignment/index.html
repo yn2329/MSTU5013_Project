@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport"
+		      content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible"
+		      content="ie=edge">
+		<title>My Course Worksheet</title>
+	</head>
+
+	<body>
+
+		<h1>Playground <br>
+		 <small>Please leave your ideas of museum education!</small></h1>
+
+		<style>
+			h1 {
+				font-family: futura;
+				color: pink;
+			}
+		</style>
+		<!-- Tag Mount Point -->
+		<app></app>
+
+		<!-- Imports your .tag files from your tag folder. -->
+		<script src="./tags/app.tag"
+		        type="riot/tag"></script>
+		<script src="./tags/todoItem.tag"
+		        type="riot/tag"></script>
+
+
+		<!-- Load RiotJS and the COMPILER; Transforms tags into JS on load. -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/riot/3.10.3/riot+compiler.js"></script>
+
+
+		<h1 id="bigOne"></h1>
+
+		<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+		<script>
+			// Initialize Firebase
+			var config = {
+				apiKey: "AIzaSyCdBuubUkWUSEQZdpxmgFtyhsUZihiHqhg",
+				authDomain: "assignment-5d687.firebaseapp.com",
+				databaseURL: "https://assignment-5d687.firebaseio.com",
+				projectId: "assignment-5d687",
+				storageBucket: "",
+				messagingSenderId: "737795511247"
+			};
+			firebase.initializeApp(config);
+
+			// Riot MOUNT
+			riot.mount('*');
+		</script>
+
+	</body>
+
+</html>

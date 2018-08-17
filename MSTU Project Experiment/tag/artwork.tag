@@ -13,13 +13,13 @@
            src="https://farm2.staticflickr.com/1764/42634648485_c1da594426.jpg"
            alt="logo">
       <span id="playground"
-            href="#playground">Playground</span>
+            href="#playground" onclick={ gotoComment }>Playground</span>
     </div>
   </div>
 
   <!--sidenav-->
   <div class="sidenav">
-    <img id="museum_icon" onclick= { gotoMuseumList }
+    <img id="museum_icon" onclick= { gotoMuseum }
          src="https://farm2.staticflickr.com/1824/43503407302_0d3112e3da_o.png"
          width="55"
          alt="museum">
@@ -108,6 +108,12 @@
 
 this.gotoEducator =  function(event){
   location.href= "Educator/riot/index.html"
+}
+this.gotoMuseum = function(event){
+  location.href="Museum/riot/index.html"
+}
+this.gotoComment = function(event) {
+  location.href="playground/assignment/index.html"
 }
 
   </script>

@@ -16,34 +16,23 @@
   </form>
 
   <script>
+/* I am trying to make the login button into a conditional function, while the code is not working.*/
     this.alertshow = function (event) {
-      //this.refs.loginemail = inputEmailEl;
-      //this.email = inputEmailEl.value;
-      //this.refs.loginpassword = inputPassEl;
-      //this.password = inputPassEl.value;
-      //if (loginpassword == "" || loginemail == "") {
+      //this.refs.loginemail = inputEmailEl; this.email = inputEmailEl.value; this.refs.loginpassword = inputPassEl; this.password = inputPassEl.value; if (loginpassword == "" || loginemail == "") {
       alert('You must enter a password and email.');
       //else { return loncation.href = "https://codepen.io/yn2329/live/pKZvGb"; } }
-  }
+    }
+
 
     this.registerFormShown = false;
 
     this.toggleRegister = function () {
-    this.registerFormShown = true;
+      this.registerFormShown = true;
     }
 
-    /*
-    let inputEmailEl = document.querySelector('#loginemail');
-    let email = inputEmailEl.value;
-    let inputPassEl = document.querySelector('#loginpassword');
-    let password = inputPassEl.value;
-    if (password == "" || email == "") {
-      alert('You must enter a password and email.');
-    } else {
-      return loncation.href = "https://codepen.io/yn2329/live/pKZvGb";
-    }
-  }
-  */
+    //this.parent.update(); //I am trying to use this line to repair the registerForm issue, but it is not working and it makes other content disappear too!
+
+
   </script>
 
   <style>
