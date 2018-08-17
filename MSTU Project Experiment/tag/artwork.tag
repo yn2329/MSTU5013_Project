@@ -106,6 +106,9 @@
    location.href="Riot-for-final/riot/index.html"
  }
 
+this.gotoEducator =  function(event){
+  location.href= "Educator/riot/index.html"
+}
 
   </script>
 
